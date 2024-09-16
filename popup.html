@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Custom Theme</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 400px;
+    }
+    .upload-area {
+      border: 2px dashed #ccc;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
+    img {
+      max-width: 100%;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h3>Upload Your Image</h3>
+  <div class="upload-area" id="uploadArea">
+    Click or Drop Image Here
+  </div>
+  <img id="previewImage" style="display: none;" />
+  <button id="applyTheme" style="display: none;">Apply Theme</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
